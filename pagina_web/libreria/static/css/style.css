@@ -416,6 +416,7 @@
     border-top: solid rgba(255,255,255,.1) 1px;
     box-shadow: inset 0 10px 30px -16px #000;
 }
+
  .ourheading h2 {
     font-size: 45px;
      font-weight: 500;
@@ -426,6 +427,7 @@
  .product_blog_cont {
      text-align: center;
      padding-top: 20px;
+     background: #ffffff;
 }
  .product_blog_cont h3 {
      color: #fff;
