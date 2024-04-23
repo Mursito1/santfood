@@ -18,5 +18,14 @@
             "src": "/(.*)",
             "dest": "pagina_web/wsgi.py"
         }
-    ]
+    
+    ],
+    "version": 2,
+    "builds2": [
+        {
+        "src": "build_files.sh",
+        "use": "@vercel/build-utils/now-build"
+        }
+    ],
+    "output": "/staticfiles_build"
 }
